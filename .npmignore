@@ -1,6 +1,16 @@
 .DS_Store
 
-node_modules
+.circleci
+.github
+.husky
+
+.editorconfig
+.eslintignore
+.eslintrc
+
+.gitattributes
+
+.depsrc
 
 # Coverage
 coverage
@@ -10,6 +20,3 @@ coverage
 
 # User-defined NVM configuration
 .nvmrc
-
-# Deps
-.depsrc

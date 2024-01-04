@@ -1,5 +1,6 @@
 {
-  "name": "sinon-chai",
+  "name": "@sequencemedia/sinon-chai",
+  "version": "0.0.0",
   "description": "Extends Chai with assertions for the Sinon.JS mocking framework.",
   "keywords": [
     "chai",
@@ -13,33 +14,38 @@
     "stubs",
     "mocks"
   ],
-  "version": "3.7.0",
-  "author": "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
+  "main": "./lib/sinon-chai.cjs",
+  "type": "module",
+  "author": {
+    "name": "Jonathan Perry for Sequence Media Limited",
+    "email": "sequencemedia@sequencemedia.net",
+    "url": "http://sequencemedia.net"
+  },
   "contributors": [
+    "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
     "Simon de Lang <simondelang@gmail.com>"
   ],
   "license": "(BSD-2-Clause OR WTFPL)",
-  "repository": "domenic/sinon-chai",
-  "main": "./lib/sinon-chai.js",
-  "files": [
-    "lib"
-  ],
+  "repository": "sequencemedia/sinon-chai",
   "scripts": {
     "test": "mocha",
-    "test-travis": "npm install && npm install chai@$CHAI_VERSION && npm install sinon@$SINON_VERSION && npm test",
-    "lint": "eslint .",
-    "cover": "nyc --reporter=html mocha && opener ./coverage/sinon-chai.js.html"
-  },
-  "peerDependencies": {
-    "chai": "^4.0.0",
-    "sinon": ">=4.0.0"
+    "lint": "eslint . --ext .mjs,.cjs",
+    "lint:fix": "npm run lint -- --fix",
+    "coverage": "c8 --reporter=html mocha"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^6.8.0",
-    "mocha": "^7.0.1",
-    "nyc": "^15.0.0",
-    "opener": "^1.5.1",
-    "sinon": "^9.0.0"
-  }
+    "@babel/core": "^7.23.7",
+    "@babel/eslint-parser": "^7.23.3",
+    "@babel/preset-env": "^7.23.7",
+    "core-js": "^3.35.0",
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "c8": "^9.0.0",
+    "chai": "^5.0.0",
+    "mocha": "^10.2.0",
+    "sinon": "^17.0.1"
+  },
+  "files": [
+    "lib"
+  ]
 }
