@@ -1,6 +1,6 @@
 {
   "name": "@sequencemedia/sinon-chai",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Extends Chai with assertions for the Sinon.JS mocking framework.",
   "keywords": [
     "chai",
