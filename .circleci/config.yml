@@ -73,7 +73,7 @@ workflows:
               only: master
       - publish:
           requires:
-            - lint
+            - lint_and_test
           filters:
             tags:
               only: /^v.*/
