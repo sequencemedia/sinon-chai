@@ -8,9 +8,14 @@
 .eslintignore
 .eslintrc
 
+babel.config.cjs
+
 .gitattributes
 
 .depsrc
+
+# Test
+test
 
 # Coverage
 coverage
