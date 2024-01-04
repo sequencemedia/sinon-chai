@@ -67,7 +67,7 @@ workflows:
       - lint:
           filters:
             branches:
-              only: main
+              only: master
       - publish:
           requires:
             - lint
