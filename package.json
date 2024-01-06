@@ -16,6 +16,7 @@
   ],
   "main": "./lib/sinon-chai.cjs",
   "type": "module",
+  "types": "./lib/sinon-chai.d.cts",
   "author": {
     "name": "Jonathan Perry for Sequence Media Limited",
     "email": "sequencemedia@sequencemedia.net",
@@ -28,6 +29,7 @@
   "license": "(BSD-2-Clause OR WTFPL)",
   "repository": "sequencemedia/sinon-chai",
   "scripts": {
+    "types": "tsc",
     "test": "mocha",
     "lint": "eslint . --ext .mjs,.cjs",
     "lint:fix": "npm run lint -- --fix",
@@ -43,7 +45,8 @@
     "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",
     "mocha": "^10.2.0",
-    "sinon": "^17.0.1"
+    "sinon": "^17.0.1",
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
     "chai": ">=5.0.0",
