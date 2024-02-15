@@ -16,6 +16,7 @@ babel.config.cjs
 
 # Test
 test
+.mocharc.mjs
 
 # Coverage
 coverage
