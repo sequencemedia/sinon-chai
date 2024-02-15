@@ -27,7 +27,10 @@
     "Simon de Lang <simondelang@gmail.com>"
   ],
   "license": "(BSD-2-Clause OR WTFPL)",
-  "repository": "sequencemedia/sinon-chai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sequencemedia/sinon-chai.git"
+  },
   "scripts": {
     "types": "tsc",
     "test": "mocha",
