@@ -1,6 +1,6 @@
 # @sequencemedia/sinon-chai
 
-This project is a fork of *sinon-chai* `v3.7.0` refacted to ESM and updated with latest dependencies
+This project is a fork of *sinon-chai* `v3.7.0` updated with latest dependencies
 
 ## Documentation
 
