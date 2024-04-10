@@ -45,7 +45,7 @@
     "c8": "^9.1.0",
     "chai": "^5.1.0",
     "core-js": "^3.36.1",
-    "eslint": "^9.0.0",
+    "eslint": "8.57.0",
     "eslint-config-standard": "^17.1.0",
     "mocha": "^10.4.0",
     "sinon": "^17.0.1",
