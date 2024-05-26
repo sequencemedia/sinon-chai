@@ -32,11 +32,11 @@
     "url": "git+https://github.com/sequencemedia/sinon-chai.git"
   },
   "scripts": {
-    "types": "tsc",
-    "test": "mocha",
+    "coverage": "c8 --reporter=html mocha",
     "lint": "eslint . --ext .mjs,.cjs",
     "lint:fix": "npm run lint -- --fix",
-    "coverage": "c8 --reporter=html mocha"
+    "test": "mocha",
+    "types": "tsc"
   },
   "devDependencies": {
     "@babel/core": "^7.24.6",
