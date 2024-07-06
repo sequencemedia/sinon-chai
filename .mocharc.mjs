@@ -1,3 +1,3 @@
 export default {
-    require: ["./test/common.mjs"]
+  require: ['./test/common.mjs']
 }
