@@ -33,7 +33,7 @@
   },
   "scripts": {
     "coverage": "c8 --reporter=html mocha",
-    "lint": "eslint . --ext .mjs,.cjs",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "test": "mocha",
     "types": "tsc"
@@ -42,11 +42,11 @@
     "@babel/core": "^7.24.7",
     "@babel/eslint-parser": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
+    "@sequencemedia/eslint-config-standard": "^0.0.3",
     "c8": "^10.1.2",
     "chai": "^5.1.1",
     "core-js": "^3.37.1",
-    "eslint": "8.57.0",
-    "eslint-config-standard": "^17.1.0",
+    "eslint": "^9.6.0",
     "mocha": "^10.6.0",
     "sinon": "^18.0.0",
     "typescript": "^5.5.3"

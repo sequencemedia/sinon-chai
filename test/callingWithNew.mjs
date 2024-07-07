@@ -1,5 +1,3 @@
-/* eslint-disable new-cap, no-new */
-
 import sinon from 'sinon'
 import { AssertionError, expect } from 'chai'
 

@@ -188,7 +188,6 @@ describe('Messages', () => {
   })
 
   describe('about calling with new', () => {
-    /* eslint-disable new-cap, no-new */
     it('should be correct for the basic case', () => {
       const spy = sinon.spy()
 
@@ -228,7 +227,6 @@ describe('Messages', () => {
         spy.should.always.have.been.calledWithNew
       }).to.throw(expected)
     })
-    /* eslint-enable new-cap, no-new */
   })
 
   describe('about call arguments', () => {
