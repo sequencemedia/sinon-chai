@@ -20,7 +20,7 @@
   "author": {
     "name": "Jonathan Perry for Sequence Media Limited",
     "email": "sequencemedia@sequencemedia.net",
-    "url": "http://sequencemedia.net"
+    "url": "https://sequencemedia.net"
   },
   "contributors": [
     "Domenic Denicola <d@domenic.me> (https://domenic.me/)",
@@ -47,9 +47,9 @@
     "core-js": "^3.37.1",
     "eslint": "8.57.0",
     "eslint-config-standard": "^17.1.0",
-    "mocha": "^10.5.2",
+    "mocha": "^10.6.0",
     "sinon": "^18.0.0",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   },
   "peerDependencies": {
     "chai": ">=5.0.0",
