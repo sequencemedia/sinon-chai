@@ -1,6 +1,6 @@
 {
   "name": "@sequencemedia/sinon-chai",
-  "version": "0.0.48",
+  "version": "0.0.49",
   "description": "Extends Chai with assertions for Sinon",
   "keywords": [
     "chai",
