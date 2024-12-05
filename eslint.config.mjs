@@ -1,8 +1,8 @@
 import globals from 'globals'
 import merge from '@sequencemedia/eslint-config-standard/merge'
 
-export default (
-  merge({
+export default [
+  ...merge({
     files: [
       '**/*.{cjs,mjs}'
     ],
@@ -16,22 +16,20 @@ export default (
         ...globals.node
       }
     }
+  }),
+  ...merge({
+    files: [
+      'test/**/*.{cjs,mjs}'
+    ],
+    languageOptions: {
+      globals: {
+        ...globals.mocha
+      }
+    },
+    rules: {
+      'no-unused-expressions': 'off',
+      'no-new': 'off',
+      'new-cap': 'off'
+    }
   })
-    .concat(
-      merge({
-        files: [
-          'test/**/*.{cjs,mjs}'
-        ],
-        languageOptions: {
-          globals: {
-            ...globals.mocha
-          }
-        },
-        rules: {
-          'no-unused-expressions': 'off',
-          'no-new': 'off',
-          'new-cap': 'off'
-        }
-      })
-    )
-)
+]
