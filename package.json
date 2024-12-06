@@ -36,12 +36,10 @@
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "prepare": "husky",
-    "test": "mocha",
-    "types": "tsc"
+    "test": "mocha"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
-    "@babel/eslint-parser": "^7.25.9",
     "@babel/preset-env": "^7.26.0",
     "@sequencemedia/eslint-config-standard": "^0.1.1",
     "c8": "^10.1.2",
@@ -51,8 +49,7 @@
     "globals": "^15.13.0",
     "husky": "^9.1.7",
     "mocha": "^11.0.1",
-    "sinon": "^19.0.2",
-    "typescript": "^5.7.2"
+    "sinon": "^19.0.2"
   },
   "peerDependencies": {
     "chai": ">=5.0.0",
