@@ -39,7 +39,7 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.4",
+    "@babel/core": "^7.27.7",
     "@babel/preset-env": "^7.27.2",
     "@sequencemedia/eslint-config-standard": "^0.2.69",
     "c8": "^10.1.3",
