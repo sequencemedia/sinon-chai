@@ -35,7 +35,7 @@
     "coverage": "c8 --reporter=html mocha",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "prepare": "husky",
+    "prepare": "node husky.mjs",
     "test": "mocha"
   },
   "devDependencies": {
